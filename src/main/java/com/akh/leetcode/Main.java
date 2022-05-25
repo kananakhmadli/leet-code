@@ -8,7 +8,7 @@ import java.util.HashMap;
 @Slf4j
 public class Main {
     public static void main(String[] args) {
-        int[] nums = {5, 4, 11, 12, 2};
+        int[] nums = {5, 4, 11, 13, 2};
         int[] result = twoSum2(nums, 9);
         log.info("result= {}", Arrays.toString(result));
     }
